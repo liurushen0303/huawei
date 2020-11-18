@@ -1,0 +1,212 @@
+.head {
+    background: rgba(0,0,0,0.05);
+    height: 38px;
+    .logol {
+        margin-top: 8px;
+        display: inline-block;
+        vertical-align: middle;
+        >img {
+            height: 20px;
+            width: auto;
+        }
+    }
+    .web-name {
+        font-size: 13px;
+        height: 38px;
+        line-height: 38px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 6px;
+        i {
+            height: 16px;
+            margin: 11px 12px;
+            width: 1px;
+            display: inline-block;
+            vertical-align: middle;
+            background: rgba(0,0,0,0.2);
+        }
+        span {
+            font-weight: 600;
+        }
+    }
+}
+.main {
+    .title {
+        padding: 80px 0 64px;
+        font-size: 26px;
+        color: #191919;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .login-info {
+        font-size: 12px;
+        width: 760px;
+        margin: 0 auto;
+        text-align: center;
+        .hwid-fullpage-l {
+            .hwid-qrCode-imgDIv {
+                background: #F7F7F7;
+                border-radius: 8px;
+                padding: 20px;
+                width: 160px;
+                height: 160px;
+                margin: 0 auto;
+            }
+            .hwid-full-qrcode-desc {
+                margin-top: 50px;
+                line-height: 22px;
+                font-size: 12px;
+                color: #838383;
+                box-sizing: content-box;
+            }
+        }
+        .hwid-fullpage-line {
+            background: rgba(0,0,0,0.1);
+            margin: 0 48px;
+            height: 240px;
+            display: inline-block;
+            width: 1px;
+            vertical-align: top;
+        }
+        .hwid-fullpage-r {
+            .hwid-pwdlogin-root {
+                .inp {
+                    padding: 0 13px;
+                    border: none;
+                    border-radius: 6px;
+                    background: rgba(0, 0, 0, 0.05);
+                    outline: 0;
+                    height: 42px;
+                    line-height: 42px;
+                    width: 300px;
+                    font-size: 14px;
+                    color: #191919;
+                    margin-top: 20px;
+                    &::before {
+                        content: "\f070";
+                        color: #aaa;
+                        font-size: 22px;
+                        font-family: FontAwesome;
+                        position: absolute;
+                        right: 25px;
+                        top: 44px;
+                    }
+                }
+                .smslogin {
+                    font-size: 16px;
+                    padding-top: 10px;
+                    text-align: left;
+                    a{
+                        color: #007dff;
+                    }
+                }
+                .login-btn {
+                    background: #CA141D;
+                    color: #fff;
+                    display: block;
+                    height: 50px;
+                    line-height: 50px;
+                    width: 300px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    border-radius: 8px;
+                    padding: 0 13px;
+                    margin-top: 40px;
+                }
+            }
+            .hwid-full-link {
+                padding-top: 40px;
+                >a {
+                    font-size: 16px;
+                    color: #007dff;
+                    padding: 0 15px;
+                    &::before {
+                        display: inline-block;
+                        position: relative;
+                        bottom: -3px;
+                        left: -17px;
+                        content: "";
+                        width: 1px;
+                        height: 16px;
+                        overflow: hidden;
+                        background: rgba(0,0,0,0.1);
+                        clear: both;
+                        padding-top: 3px;
+                    }
+                    &:nth-of-type(1)::before {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .hwid-third-login-list {
+            padding: 30px 0 40px;
+            text-align: center;
+            >span {
+                width: 40px;
+                height: 40px;
+                margin: 0 25px;
+                cursor: pointer;
+                border-radius: 50%;
+                display: inline-block;
+            }
+            .hwid-icon-third_qq {
+                background: url(https://id1.cloud.huawei.com/CAS/up/idmw_rss_61/js/mobile_rss/vuebuild/img/third_qq.svg) no-repeat;
+                background-position: 50%;
+                background-size: contain;
+                &:hover {
+                    background: url(https://id1.cloud.huawei.com/CAS/up/idmw_rss_61/js/mobile_rss/vuebuild/img/third_qq_hover.svg) no-repeat;
+                    background-position: 50%;
+                    background-size: contain;
+                }
+            }
+            .hwid-icon-third_alipay {
+                background: url(https://id1.cloud.huawei.com/CAS/up/idmw_rss_61/js/mobile_rss/vuebuild/img/third_alipay.svg) no-repeat;
+                background-position: 50%;
+                background-size: contain;
+                &:hover {
+                    background: url(https://id1.cloud.huawei.com/CAS/up/idmw_rss_61/js/mobile_rss/vuebuild/img/third_alipay_hover.svg) no-repeat;
+                    background-position: 50%;
+                    background-size: contain;
+                }
+            }
+            .hwid-icon-third_weixin {
+                background: url(https://id1.cloud.huawei.com/CAS/up/idmw_rss_61/js/mobile_rss/vuebuild/img/third_weixin.svg) no-repeat;
+                background-position: 50%;
+                background-size: contain;
+                &:hover {
+                    background: url(https://id1.cloud.huawei.com/CAS/up/idmw_rss_61/js/mobile_rss/vuebuild/img/third_weixin_hover.svg) no-repeat;
+                    background-position: 50%;
+                    background-size: contain;
+                }
+            }
+
+        }
+    }
+}
+.footer {
+    background: rgba(0,0,0,0.05);
+    width: 100%;
+    color: #333;
+    padding: 44px 0;
+    .warrant-area {
+        text-align: center;
+        font-size: 12px;
+        color: #999;
+        a {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        em {
+            padding: 0 10px;
+        }
+    }
+    .ft {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 12px;
+        color: #999;
+        opacity: 0.3;
+    }
+}

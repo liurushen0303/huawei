@@ -1,0 +1,76 @@
+.minicart-pro-item .pro-other .p-title span.p-mini-tag-suit {
+  display: block;
+  border-radius: 2px;
+  background: #ca141d;
+  color: #fff;
+  width: 42px;
+  height: 17px;
+  line-height: 17px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  border: none;
+}
+.minicart-pro-item .pro-other li.disabled .p-title span.p-mini-tag-suit {
+  color: #fff;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+body {
+  font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+div {
+  display: block;
+}
+a {
+  cursor: pointer;
+  color: #3a3a3a;
+}
+fieldset,
+img,
+a img {
+  border: 0 none;
+}
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+label {
+  cursor: default;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+  font-style: normal;
+  font-weight: 400;
+}
+.fl,
+.left,
+.left-area {
+  float: left;
+}
+.relative {
+  position: relative;
+}
+.fr,
+.right,
+.right-area {
+  float: right;
+}

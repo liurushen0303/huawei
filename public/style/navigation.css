@@ -1,0 +1,203 @@
+.header {
+  min-width: 1200px;
+  height: 41px;
+  padding: 18px 0 15px 0;
+  background: #fff;
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+  line-height: 1.5;
+  box-shadow: 0 0 46px rgba(0, 0, 0, 0.03);
+}
+.header .layout {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+.layout:before,
+.layout:after {
+  content: "";
+  display: table;
+}
+.layout:after {
+  clear: both;
+}
+.left {
+  float: left;
+}
+.left .logo {
+  float: left;
+  margin-right: 34px;
+  position: relative;
+  z-index: 1;
+}
+.logo a {
+  float: left;
+}
+.logo img {
+  height: 36px;
+}
+.naver {
+  float: left;
+  max-width: 533px;
+  height: 40px;
+  overflow: hidden;
+}
+.clearfix:before {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.naver li {
+  float: left;
+  margin-right: 24px;
+}
+.naver li.img {
+  margin-top: 7px;
+}
+.naver a {
+  font-size: 16px;
+  color: #333;
+  position: relative;
+  line-height: 40px;
+  display: block;
+}
+.naver li.img img {
+  display: block;
+  height: 24px;
+}
+.right {
+  float: right;
+}
+.search-bar {
+  position: relative;
+  margin-top: 5px;
+  background: #fff;
+  border-radius: 16px 16px 0 0;
+}
+.search-bar .search-bar-form .hover {
+  border-color: #c9c9c9;
+}
+.search-bar .search-bar-form {
+  line-height: 1;
+  width: 238px;
+  height: 28px;
+  background: #f0f0f0;
+  border: 1px solid #f0f0f0;
+  border-radius: 15px;
+  position: relative;
+  z-index: 310;
+}
+.search-bar .search-bar-form:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 4px;
+  right: 12px;
+}
+.search-bar .search-bar-form.hover:after {
+  background: url(../img/icon-common.svg) no-repeat;
+  background-position: -159px 0;
+  cursor: pointer;
+}
+.search-bar .search-bar-form .text {
+  border: 0;
+  color: #3a3a3a;
+  width: 205px;
+  text-indent: 15px;
+  height: 30px;
+  line-height: 30px;
+  background: transparent;
+  float: left;
+}
+.search-bar .search-bar-form .text:focus .con {
+  display: block;
+}
+.search-bar .search-bar-form .text:focus .nav {
+  display: block;
+}
+.search-bar .search-bar-form .text:focus .search-bar-key {
+  display: none;
+}
+.search-bar .search-bar-form .button {
+  width: 35px;
+  height: 30px;
+  cursor: pointer;
+  border: 0;
+  overflow: hidden;
+  position: absolute;
+  background: transparent;
+  padding-right: 10px;
+  right: 0;
+  top: 0;
+  color: #353535;
+  font-size: 0;
+  z-index: 10;
+}
+.search-bar .search-bar-key {
+  position: absolute;
+  max-width: 161px;
+  right: 33px;
+  top: 8px;
+  bottom: 6px;
+  z-index: 311;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.search-bar .search-bar-key a {
+  color: #999;
+  font-size: 12px;
+  margin-right: 8px;
+}
+.search-bar-history {
+  background: #fff;
+  width: 240px;
+  border-radius: 8px;
+  position: absolute;
+  top: 40px;
+  line-height: 26px;
+  z-index: 306;
+  box-shadow: 0 2px 36px 0 rgba(0, 0, 0, 0.07);
+}
+.con:first-child {
+  border-top: 0;
+}
+.search-bar-history p {
+  text-indent: 15px;
+  height: 30px;
+  line-height: 30px;
+}
+.search-bar-history label {
+  font-size: 13px;
+  color: #888;
+}
+.search-bar-history .cleanUp {
+  float: right;
+  margin-right: 17px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #888;
+}
+.search-bar-history ul {
+  text-indent: 15;
+}
+.search-bar-history ul li {
+  padding-right: 17px;
+}
+.search-bar-history ul li a {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #333;
+  height: 30px;
+  line-height: 30px;
+}
+.search-bar-history .nav {
+  border-top: 1px solid #f2f2f5;
+}

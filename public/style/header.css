@@ -1,0 +1,318 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  color: #3a3a3a;
+  list-style: none;
+  text-decoration: none;
+}
+.shortcut {
+  min-width: 1200px;
+  height: 36px;
+  line-height: 36px;
+  background-color: #2e2828;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+  position: relative;
+  z-index: 411;
+}
+.shortcut a {
+  color: #afafaf;
+}
+.shortcut .layout {
+  width: 1200px;
+  margin: 0 auto;
+}
+.shortcut .layout:before {
+  content: "";
+  display: table;
+}
+.shortcut .layout:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.shortcut .s-sub {
+  float: left;
+}
+.shortcut li:first-child {
+  padding-left: 0;
+}
+.shortcut li {
+  float: left;
+  padding: 0 8px;
+  position: relative;
+}
+.shortcut li:first-child:before {
+  display: none;
+}
+.shortcut li:before {
+  content: "";
+  width: 1px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  top: 13px;
+  left: 0;
+  background: #414141;
+}
+.shortcut a {
+  color: #afafaf;
+}
+.shortcut a:hover {
+  color: #fff;
+}
+.shortcut .s-dropdown {
+  position: relative;
+  z-index: 310;
+  margin: 0 -9px;
+  height: 36px;
+}
+.shortcut .s-dropdown .h {
+  position: relative;
+  padding: 0 12px 0 10px;
+  height: 36px;
+}
+.shortcut .s-dropdown .icon-dropdown {
+  position: relative;
+  padding-right: 15px;
+}
+.shortcut .s-dropdown .icon-dropdown:before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 0;
+  right: -5px;
+  background: url(../img/icon-common.svg) no-repeat;
+  background-position: -71px 0;
+}
+.shortcut .s-dropdown:hover {
+  margin: 0 -9px;
+  box-shadow: 0 2px 36px 0 rgba(0, 0, 0, 0.07);
+  z-index: 311;
+}
+.shortcut .s-dropdown:hover .h {
+  background: #fff;
+  z-index: 100;
+}
+.shortcut .s-dropdown:hover .h a {
+  position: relative;
+  color: #cb242b;
+}
+a:hover {
+  text-decoration: none;
+}
+.shortcut .s-dropdown:hover .icon-dropdown:before {
+  background-position: -85px 0;
+}
+.shortcut .s-dropdown .b {
+  display: none;
+  position: absolute;
+  top: 36px;
+  right: 0;
+  background: #fff;
+  box-shadow: 0 2px 36px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 8px 0 8px 8px;
+}
+.shortcut .s-dropdown:hover .b {
+  display: block;
+}
+.shortcut .dropdown-more.w-119 {
+  width: 119px;
+  padding: 6px 0 12px 0;
+  text-align: center;
+  line-height: 32px;
+}
+.shortcut .dropdown-more a {
+  display: block;
+  color: #777;
+}
+.shortcut .dropdown-more a:hover {
+  color: #cb242b;
+}
+.shortcut .s-main {
+  float: right;
+}
+.shortcut .dropdown-more {
+  width: 85px;
+  padding: 6px 0 12px 0;
+  text-align: center;
+  line-height: 32px;
+}
+.shortcut .dropdown-navs {
+  width: 893px;
+  line-height: 20px;
+  color: #777;
+}
+.shortcut .dropdown-navs .dropdown-navs-icon {
+  float: left;
+  width: 50px;
+  text-align: center;
+  margin: 37px 46px 0 49px;
+}
+.shortcut .dropdown-navs-icon area {
+  font-size: 12px;
+}
+.shortcut .dropdown-navs a:hover {
+  color: #cb242b;
+}
+.shortcut .dropdown-navs .dropdown-navs-icon span {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-bottom: 3px;
+}
+.shortcut .dropdown-navs .dropdown-navs-icon span:before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url(../img/icon-common.svg);
+  background-position: -202px 0;
+}
+.shortcut .dropdown-navs .f1 {
+  float: left;
+  width: 185px;
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+.shortcut .dropdown-navs .f1 .f2 {
+  float: left;
+  width: 80px;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+.shortcut .dropdown-navs .f16 {
+  font-size: 16px;
+  color: #333 !important;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.shortcut .dropdown-code {
+  padding: 20px 0 20px 0;
+  width: 244px;
+}
+.shortcut .dropdown-code .dropdown-code-detail {
+  padding-left: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.shortcut .dropdown-code .code-img {
+  width: 90px;
+  height: 90px;
+  float: left;
+  margin-right: 12px;
+}
+a img {
+  border: 0 none;
+}
+.shortcut .dropdown-code .code-info {
+  float: left;
+  line-height: 18px;
+}
+.shortcut .dropdown-code .code-info h2 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  line-height: 18px;
+}
+.shortcut .dropdown-code .code-info span {
+  width: 32px;
+  height: 32px;
+  display: block;
+  margin-top: 5px;
+}
+.shortcut .dropdown-code .code-info .mgr-5 {
+  margin-right: 5px;
+}
+.shortcut .dropdown-code .code-info .fl {
+  float: left;
+}
+.shortcut .dropdown-code .code-info span:before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-top: 1px;
+}
+.shortcut .dropdown-code .code-info span.icon-andrid:before {
+  background: url(../img/icon-common.svg) no-repeat;
+  background-position: 0 0;
+}
+.shortcut .dropdown-code .code-info span.icon-ios:before {
+  background: url(../img/icon-common.svg) no-repeat;
+  background-position: -38px -113px;
+}
+.shortcut .dropdown-code .code-info span.icon-wechat:before {
+  background: url(../img/icon-common.svg) no-repeat;
+  background-position: -32px 0;
+}
+.shortcut .dropdown-code .dropdown-code-detail:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+.shortcut .s-dropdown {
+  position: relative;
+  z-index: 310;
+  margin: 0 -9px;
+  height: 36px;
+}
+.shortcut .s-dropdown-minicart {
+  background: #424242;
+}
+.shortcut .s-dropdown:hover .h a {
+  position: relative;
+  color: #cb242b;
+}
+.shortcut .s-dropdown:hover {
+  margin: 0 -9px;
+  box-shadow: 0 2px 36px 0 rgba(0, 0, 0, 0.07);
+  z-index: 311;
+}
+.shortcut .s-dropdown .h {
+  position: relative;
+  padding: 0 12px 0 10px;
+  height: 36px;
+}
+.shortcut .s-dropdown:hover .h {
+  background: #fff;
+  z-index: 100;
+}
+.shortcut .s-dropdown .icon-minicart {
+  position: relative;
+  padding-left: 23px;
+  display: block;
+  white-space: nowrap;
+}
+.shortcut .s-dropdown .icon-minicart:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 12px;
+  position: absolute;
+  top: 11px;
+  left: -3px;
+  line-height: 12px;
+  background: url(../img/icon-common.svg) no-repeat;
+  background-position: -99px -4px;
+}
+.shortcut .s-dropdown .b {
+  display: none;
+  position: absolute;
+  top: 36px;
+  right: 0;
+  background: #fff;
+  box-shadow: 0 2px 36px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 8px 0 8px 8px;
+}

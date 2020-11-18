@@ -1,0 +1,14 @@
+.t {
+  position: relative !important;
+  width: 1200px !important;
+  height: 160px !important;
+  padding: 30px 0 10px 0 !important;
+  left: 160px !important;
+}
+.t img {
+  border-radius: 10px !important;
+}
+.p {
+  bottom: 58px !important;
+  right: 8px !important;
+}

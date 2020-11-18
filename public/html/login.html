@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/cd.css">
+    <link rel="stylesheet" href="../style/login.css">
+    <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+    <script src="../js/login.js" type="module"></script>
+</head>
+<body>
+    <div class="hw-login">
+        <!-- 头部 -->
+        <div class="head" >
+            <div class="layout clearfix">
+                <div class="logol left"><img src="https://id1.cloud.huawei.com/CAS/up/idmw_rss_61/logos/HUAWEI.svg" alt=""></div>
+                <div class="web-name left">
+                    <i></i>
+                    <span>华为商城</span>
+                </div>
+            </div>
+        </div>
+        <!-- main -->
+        <div class="main" style="height: 700px;" >
+            <div class="layout">
+                <div class="title"><span>华为账号登录</span></div>
+                <div class="login-info clearfix">
+                    <div class="hwid-fullpage-l" style="float: left;">
+                        <div class="hwid-qrCode-imgDIv">
+                            <img src="data:image/png;base64,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" alt="">
+                        </div>
+                        <div class="hwid-qrcode-over-time"></div>
+                        <div class="hwid-full-qrcode-desc">
+                            <span>若您使用华为手机，请进入“设置”>“华为帐号”扫码登录。</span>
+                        </div>
+                    </div>
+                    <div class="hwid-fullpage-line" style="float: left;"></div>
+                    <div class="hwid-fullpage-r" style="float: left;">
+                        <div class="hwid-pwdlogin-root">
+                            <input type="text" name="phone" id="username" class="input-1 inp" placeholder="手机号/邮件地址/华为号"><div class="phoneinfo"></div>
+                            <input type="password" class="input-2 inp" placeholder="密码" name="password"><div class="psdinfo"></div><br>
+                            <p class="smslogin"><a href="#">短信验证码</a></p>
+                            <button class="login-btn">登录</button>
+                        </div>
+                        <div class="hwid-full-link">
+                            <a href="#">注册</a>
+                            <a href="#">忘记密码</a>
+                            <a href="#">遇到问题</a>
+                        </div>
+                        <div class="hwid-third-login-list">
+                            <span class="hwid-icon-third_qq"></span>
+                            <span class="hwid-icon-third_alipay"></span>
+                            <span class="hwid-icon-third_weixin"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 底部 -->
+        <div class="footer " >
+            <div class="warrant-area">
+                <a href="#">华为帐号与云空间用户协议</a>
+                <em>|</em>
+                <a href="#">关于华为帐号与云空间隐私的声明</a>
+                <em>|</em>
+                <a href="#">常见问题</a>
+                <em>|</em>
+                <a href="#">Cookies</a>
+            </div>
+            <div class="ft">华为帐号  版权所有 © 2011-2020</div>
+        </div>
+    </div>
+</body>
+</html>

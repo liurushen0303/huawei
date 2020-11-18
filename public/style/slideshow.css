@@ -1,0 +1,27 @@
+#swipers {
+  bottom: 80px;
+  left: 470px;
+}
+#btns {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #777;
+  opacity: 0.4;
+}
+.d {
+  left: -180px !important;
+}
+.d img {
+  border-radius: 0 0 50px 50px;
+}
+.lf {
+  left: 380px !important;
+  top: 220px !important;
+  background-image: url(../img/left.png) !important;
+}
+.rt {
+  right: 180px !important;
+  top: 220px !important;
+  background-image: url(../img/right.png) !important;
+}

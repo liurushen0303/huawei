@@ -1,0 +1,66 @@
+#underheader {
+  background: white;
+}
+.secondnav {
+  background: white;
+  width: 1260px;
+  margin: auto;
+  height: 70px;
+}
+.secondnav-left::after {
+  content: " ";
+  margin: 0;
+  height: 0px;
+  display: block;
+  clear: both;
+  visibility: hidden;
+  overflow: hidden;
+}
+.secondnav-left {
+  width: 750px;
+  height: 40px;
+  float: left;
+  margin-top: 15px;
+}
+.logo {
+  width: 206px;
+  height: 40px;
+  margin-right: 35px;
+  float: left;
+}
+.secondnav-left span {
+  font-size: 22px;
+  line-height: 36px;
+}
+/* 右面的搜索框 */
+.secondnav-right {
+  width: 240px;
+  height: 40px;
+  float: right;
+  margin-top: 15px;
+}
+.secondnav-right-text {
+  height: 30px;
+  width: 205px;
+  border-radius: 20px 0 0 20px;
+  border: 0;
+  line-height: 30px;
+  text-indent: 15px;
+  background: #f0f0f0;
+  vertical-align: middle;
+  outline: none;
+}
+.secondnav-right-but {
+  width: 22px;
+  height: 31px;
+  vertical-align: middle;
+  border: 0;
+  cursor: pointer;
+  border-radius: 0 20px 20px 0;
+  background: #f0f0f0 url("../img/icon-common.svg") no-repeat -160px 3px;
+  outline: none;
+}
+.search {
+  margin-top: 5px;
+  position: relative;
+}
